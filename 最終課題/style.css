@@ -1,0 +1,132 @@
+body,h1,h2,h3,h4,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: bottom;
+}
+a img{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background-color: #fff1cf;
+    -webkit-text-size-adjust: 100%;
+}
+main{
+    width:100%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 400px;
+    color:#222;
+}
+div{
+    margin: 10px auto;
+    padding: 10px;
+}
+hr{
+    border: 1px solid #ed6d3d;
+    background-color: #ed6d3d;
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* header~title */
+header{
+    box-shadow: 0 1px 2px 2px rgba(0,0,0,0.5);
+    margin-bottom:3px
+}
+h1{
+    color:#fff1cf;
+    font-size: 50px;
+    padding: 50px 10px;
+}
+.title{
+    background-color:#ed6d3d;
+}
+.title>p{
+    color: #fff1cf;
+}
+nav{
+    width:100%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 400px;
+}
+nav>ul{
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+nav>ul>li{
+    border-right: 1px solid #fff1cf;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    position: relative;
+}
+nav>ul>li:last-child{
+    border-right: 0;
+}
+nav>ul>li>a:link{
+    color:#fff1cf;
+}
+nav>ul>li>a:hover{
+    background-color: rgba(255,255,255,.5);
+}
+
+/* contents */
+.contents{
+    width: 80%;
+    box-shadow: 0 1px 1px 2px rgba(0,0,0,0.5);
+}
+.contents img{
+    width: 150px;
+    margin: 10px;
+}
+h2{
+    color: #ed6d3d;
+}
+h3,h4{
+    padding: 5px;
+    color:#222;
+}
+p{
+    padding: 5px;
+}
+.optica{
+    margin: 10px auto;
+    border: 1px solid #ed6d3d;
+    text-align: center;
+}
+.bcimage{
+    margin: 10px auto;
+    background-image: url(bcimage.jpg);
+    background-size: cover;
+    border: 1px solid #ed6d3d;
+    text-align: center;
+}
+.black{
+    margin: 10px auto;
+    background-color: #000;
+    border: 1px solid #ed6d3d;
+    text-align: center;
+}
+.contents li{
+    display: inline-block;
+}
+.code{
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 1px 2px 2px rgba(0,0,0,0.5);
+}
+.code span{
+    color: #ff1493;
+}

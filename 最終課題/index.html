@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>GUI研究所</title>
+</head>
+<link href="style.css" type="text/css" rel="stylesheet">
+<body>
+    <header>
+        <div class="title">
+            <nav>
+               <h1>はじめてボタンをデザインする人のためのメソッド</h1>
+                <ul>
+                    <li><a href="#基本">0:基本</a></li>
+                    <li><a href="#線と面">1:線と面</a></li>
+                    <li><a href="#色">2:色</a></li>
+                    <li><a href="#質感">3:質感</a></li>
+                    <li><a href="#影">4:影</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <div class="contents">
+                <a id="基本"></a>
+                <h2>0:基本</h2>
+                <p>このWebサイトは<a href="https://goo.gl/Wibx0p">GUIをデザインするときの考え方</a>を読んだ人を対象に、実際にGUIのデザインをする時にどういう風にデザインをしていけばいいのか、その例をたくさん挙げるWebサイトです。</p>
+                <p>構成は、CSSで再現するときの難易度、サンプル画像、デザインに対する評価で構成されています。これらの情報を元に、実際にWebサイトを作る時の参考になればいいなと思います。</p>
+                <p>今回はボタンを例に見て行きましょう。</p>
+            </div>
+            <div class="contents">
+                <a id="線と面"></a>
+                <h2>1:線と面</h2>
+                <h3>線だけで構成されたボタン</h3>
+                <h4>CSSでの再現：☆☆★（簡単）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_1_1.png"></li>
+                    <li><img src="image/button_1_9.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_1_2.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_1_1.png"></li>
+                    <li><img src="image/button_1_9.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>フラットデザインによくみられるボタン。線だけで構成されたボタンは写真の上にそのまま置くととても見づらいので、写真の位置を変えるか写真に半透明のマスクを掛けると良いだろう。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>このボタンはボタンであることをユーザーが認識しづらい。そのため、ボタンにオンマウスした時にアニメーションを付けるなど、工夫が必要となる。</p>
+                <hr>
+                <h3>面だけで構成されたボタン</h3>
+                <h4>CSSでの再現：☆★★（透過するのは少し難しい）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_2_7.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_2_8.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_2_8.png"></li>
+                    <li><img src="image/button_2_7.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_7_1.png"></li>
+                    <li><img src="image/button_7_2.png"></li>
+                    <li><img src="image/button_7_3.png"></li>
+                    <li><img src="image/button_7_4.png"></li>
+                    <li><img src="image/button_7_5.png"></li>
+                    <li><img src="image/button_7_6.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>フラットデザインによくみられるボタン。線だけで構成されたボタンよりもボタンの文字が認識しやすい。色味によっては少し重くなるが、透明度を上手く調節すればスタイリッシュなボタンになる。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>このボタンはボタンであることをユーザーが認識しづらい。そのため、ボタンにオンマウスした時にアニメーションを付けるなど、工夫が必要となる。</p>
+                <hr>
+                <h3>発展：形を変える</h3>
+                <h4>CSSでの再現：★★★（難しい。場合によってはCSSではなく画像で作る）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_3_3.png"></li>
+                    <li><img src="image/button_3_2.png"></li>
+                    <li><img src="image/button_3_4.png"></li>
+                    <li><img src="image/button_3_1.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_3_3.png"></li>
+                    <li><img src="image/button_3_2.png"></li>
+                    <li><img src="image/button_3_4.png"></li>
+                    <li><img src="image/button_3_1.png"></li>
+                </ul>
+               　<ul class="bcimage">
+                    <li><img src="image/button_3_3.png"></li>
+                    <li><img src="image/button_3_2.png"></li>
+                    <li><img src="image/button_3_4.png"></li>
+                    <li><img src="image/button_3_1.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>ユーザーがボタンとして一気に認識しやすくなる。企業のWebサイトなど、様々な人が見るWebサイトデザインにおすすめ。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>このボタンはデザイン的に古臭く見える場合がある。他の部分のデザインと照らし合わせて、ほどほどに形を変える。</p>
+            </div>
+            
+            <div class="contents">
+                <a id="色"></a>
+                <h2>2:色</h2>
+                <h3>線と色の組み合わせ</h3>
+                <h4>CSSでの再現：☆☆★（簡単）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_1_1.png"></li>
+                    <li><img src="image/button_1_2.png"></li>
+                    <li><img src="image/button_1_3.png"></li>
+                    <li><img src="image/button_1_4.png"></li>
+                    <li><img src="image/button_1_5.png"></li>
+                    <li><img src="image/button_1_6.png"></li>
+                    <li><img src="image/button_1_7.png"></li>
+                    <li><img src="image/button_1_8.png"></li>
+                    <li><img src="image/button_1_9.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_1_1.png"></li>
+                    <li><img src="image/button_1_2.png"></li>
+                    <li><img src="image/button_1_3.png"></li>
+                    <li><img src="image/button_1_4.png"></li>
+                    <li><img src="image/button_1_5.png"></li>
+                    <li><img src="image/button_1_6.png"></li>
+                    <li><img src="image/button_1_7.png"></li>
+                    <li><img src="image/button_1_8.png"></li>
+                    <li><img src="image/button_1_9.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_1_1.png"></li>
+                    <li><img src="image/button_1_2.png"></li>
+                    <li><img src="image/button_1_3.png"></li>
+                    <li><img src="image/button_1_4.png"></li>
+                    <li><img src="image/button_1_5.png"></li>
+                    <li><img src="image/button_1_6.png"></li>
+                    <li><img src="image/button_1_7.png"></li>
+                    <li><img src="image/button_1_8.png"></li>
+                    <li><img src="image/button_1_9.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>白のみや黒のみの線と比べると華やかさがある。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>背景を黒くしたり画像を置いたりすると見づらいボタンの色もあるので、組み合わせに要注意。</p>
+                <hr>
+                <h3>面と色の組み合わせ</h3>
+                <h4>CSSでの再現：☆☆★（簡単）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_2_1.png"></li>
+                    <li><img src="image/button_2_2.png"></li>
+                    <li><img src="image/button_2_3.png"></li>
+                    <li><img src="image/button_2_4.png"></li>
+                    <li><img src="image/button_2_5.png"></li>
+                    <li><img src="image/button_2_6.png"></li>
+                    <li><img src="image/button_2_7.png"></li>
+                    <li><img src="image/button_2_9.png"></li>
+                    <li><img src="image/button_2_10.png"></li>
+                    <li><img src="image/button_2_11.png"></li>
+                    <li><img src="image/button_2_12.png"></li>
+                    <li><img src="image/button_2_13.png"></li>
+                    <li><img src="image/button_2_14.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_2_1.png"></li>
+                    <li><img src="image/button_2_2.png"></li>
+                    <li><img src="image/button_2_3.png"></li>
+                    <li><img src="image/button_2_4.png"></li>
+                    <li><img src="image/button_2_5.png"></li>
+                    <li><img src="image/button_2_6.png"></li>
+                    <li><img src="image/button_2_8.png"></li>
+                    <li><img src="image/button_2_9.png"></li>
+                    <li><img src="image/button_2_10.png"></li>
+                    <li><img src="image/button_2_11.png"></li>
+                    <li><img src="image/button_2_12.png"></li>
+                    <li><img src="image/button_2_13.png"></li>
+                    <li><img src="image/button_2_14.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_2_1.png"></li>
+                    <li><img src="image/button_2_2.png"></li>
+                    <li><img src="image/button_2_3.png"></li>
+                    <li><img src="image/button_2_4.png"></li>
+                    <li><img src="image/button_2_5.png"></li>
+                    <li><img src="image/button_2_6.png"></li>
+                    <li><img src="image/button_2_8.png"></li>
+                    <li><img src="image/button_2_9.png"></li>
+                    <li><img src="image/button_2_10.png"></li>
+                    <li><img src="image/button_2_11.png"></li>
+                    <li><img src="image/button_2_12.png"></li>
+                    <li><img src="image/button_2_13.png"></li>
+                    <li><img src="image/button_2_14.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>白のみや黒のみの面と比べると華やかさがある。また線だけのボタンよりボタンが見やすい。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>このボタンは色の組み合わせをきちんと考えないと大変うるさいデザインになる。この例では原色を使用しているが、実際のデザインでは他のデザインと調和するようにボタンの色の彩度を下げる必要がある。</p>
+            </div>
+            
+            <div class="contents">
+                <a id="質感"></a>
+                <h2>3:質感</h2>
+                <h3>滑らかなグラデーション</h3>
+                <h4>CSSでの再現：★★★（コードが細かくなる）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_4_1.png"></li>
+                    <li><img src="image/button_4_2.png"></li>
+                    <li><img src="image/button_4_3.png"></li>
+                    <li><img src="image/button_4_4.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_4_1.png"></li>
+                    <li><img src="image/button_4_2.png"></li>
+                    <li><img src="image/button_4_3.png"></li>
+                    <li><img src="image/button_4_4.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_4_1.png"></li>
+                    <li><img src="image/button_4_2.png"></li>
+                    <li><img src="image/button_4_3.png"></li>
+                    <li><img src="image/button_4_4.png"></li>
+                </ul>
+               <h3>どんなデザインに向いているか</h3>
+                <p>質感が乗ることでボタンらしさがより強調されている。多くのWebサイトでボタンのデザインに取り入れられる。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>グラデーションを行う際の光源の位置に注意。WebサイトのGUIにおける光源の位置は真上が望ましい。</p>
+                <hr>
+                <h3>分割されたグラデーション</h3>
+                <h4>CSSでの再現：☆★★（少し込み入ったコードになる）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_4_5.png"></li>
+                    <li><img src="image/button_4_6.png"></li>
+                    <li><img src="image/button_4_7.png"></li>
+                    <li><img src="image/button_4_8.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_4_5.png"></li>
+                    <li><img src="image/button_4_6.png"></li>
+                    <li><img src="image/button_4_7.png"></li>
+                    <li><img src="image/button_4_8.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_4_5.png"></li>
+                    <li><img src="image/button_4_6.png"></li>
+                    <li><img src="image/button_4_7.png"></li>
+                    <li><img src="image/button_4_8.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>滑らかなグラデーションよりもスタイリッシュな印象になる。よりデザイン的・先進的なWebデザインにおすすめ。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>分割する色とボタンの文字の色との組み合わせ次第では文字の可読性が著しく悪くなる可能性がある。</p>
+                <hr>
+                <h3>光沢を乗せる</h3>
+                <h4>CSSでの再現：×（画像を使う）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_5_1.png"></li>
+                    <li><img src="image/button_5_2.png"></li>
+                </ul>
+                <ul class="black">
+                    <li><img src="image/button_5_1.png"></li>
+                    <li><img src="image/button_5_2.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_5_1.png"></li>
+                    <li><img src="image/button_5_2.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>2000年代以前によく使われていたボタンのデザイン。高齢者など、Webサイトにあまりなじみが無い人が使う時のデザインにおすすめ。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>CSSで再現するのが極めて困難なボタンなので、制作時のサイズなどに気を付けること。</p>
+            </div>
+                       
+            <div class="contents">
+                <a id="影"></a>
+                <h2>4:影</h2>
+                <h3>ぼかされた影</h3>
+                <h4>CSSでの再現：☆★★（普通）</h4>
+                <ul class="optica">
+                    <li><img src="image/button_6_1.png"></li>
+                    <li><img src="image/button_6_2.png"></li>
+                    <li><img src="image/button_6_3.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_6_1.png"></li>
+                    <li><img src="image/button_6_2.png"></li>
+                    <li><img src="image/button_6_3.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>影を付けるとフラットなボタンにも立体感が付く。マテリアルデザインで推奨されているデザイン。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>光沢と同じように、光源は真上に設置されるのが望ましい。また、ぼかしの程度は他のデザインときちんと合わせないとボタンだけが浮きすぎていたり目立たなくなったりするので要注意。</p>
+                <hr>
+                <h3>ぼかしていない影</h3>
+                <ul class="optica">
+                    <li><img src="image/button_6_4.png"></li>
+                    <li><img src="image/button_6_5.png"></li>
+                    <li><img src="image/button_6_6.png"></li>
+                </ul>
+                <ul class="bcimage">
+                    <li><img src="image/button_6_4.png"></li>
+                    <li><img src="image/button_6_5.png"></li>
+                    <li><img src="image/button_6_6.png"></li>
+                </ul>
+                <h3>どんなデザインに向いているか</h3>
+                <p>装飾的に影を付けたデザイン。ぼかされた影よりもスタイリッシュな印象になる。</p>
+                <h3>このボタンを扱う時の注意点</h3>
+                <p>このボタンのみ光源を真上に置いていないので、他のデザインの光源のすり合わせに注意。</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
